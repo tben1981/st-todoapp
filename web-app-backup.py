@@ -24,8 +24,7 @@ st.write("This app is to boost your productivity")
 
 #print todos in a checkbox format (
 for index,todo in enumerate(app_todos):
-    checkbox=st.checkbox(f"Task: {todo.return_todo()}  \nDeadline: {todo.return_deadline()}"
-                         ,key=index)
+    checkbox=st.checkbox(f"Task: {todo.return_todo()}  \nDeadline: {todo.return_deadline()}",key=index)
     if checkbox:
         app_todos.web_complete_task(index)  #Uses a function
         st.rerun()    #Rerun the page after deleting
