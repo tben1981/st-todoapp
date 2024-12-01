@@ -16,11 +16,19 @@ def web_add_todo():
 app_todos=todolist.TaskList()
 app_todos.gui_retrieve_task()
 
+st.set_page_config(layout='wide'
+                          '')
 
 #print title and intro
 st.title("Ben's todo app")
 st.subheader("This is Ben's implementation of todo")
-st.write("This app is to boost your productivity")
+st.write("This app is to boost your <b>productivity<b>",
+         unsafe_allow_html=True)  #This allow simple html
+
+#items for creating add to do
+st.text_input("Enter a todo",key="new_todo")
+st.date_input("Enter a deadline",key="new_deadline")
+st.button("Add",on_click=web_add_todo )
 
 #print todos in a checkbox format (
 for index,todo in enumerate(app_todos):
@@ -29,12 +37,3 @@ for index,todo in enumerate(app_todos):
     if checkbox:
         app_todos.web_complete_task(index)  #Uses a function
         st.rerun()    #Rerun the page after deleting
-
-#items for creating add to do
-st.text_input("Enter a todo",key="new_todo")
-st.date_input("Enter a deadline",key="new_deadline")
-st.button("Add",on_click=web_add_todo )
-
-
-
-

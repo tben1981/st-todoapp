@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c661190-84d5-4fa9-bab3-fbb024aa856c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web-app-backup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+    <list default="true" id="2c661190-84d5-4fa9-bab3-fbb024aa856c" name="Changes" comment="Correct as of now">
+      <change afterPath="$PROJECT_DIR$/pages/about.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web-app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.camera_input.executor": "Run",
     "Python.todolist.executor": "Run",
     "Python.web-app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ben\PycharmProjects\st-todoapp" />
       <recent name="C:\Users\wtan59\PycharmProjects\todo-st\pythonProject" />
     </key>
   </component>
@@ -66,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1732547524411</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correct as of now">
+      <option name="closed" value="true" />
+      <created>1733069433649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733069433649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correct as of now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct as of now" />
   </component>
 </project>
